@@ -1,0 +1,21 @@
+{
+  "name": "personal-web",
+  "authors": [
+    "aginert <ana.ginert@gmail.com>"
+  ],
+  "description": "web personal",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "boostrap#^4.1.3"
+  }
+}
