@@ -76,13 +76,15 @@ para cambiarla utilizar: .navbar-dark .navbar-toogler-icon{}*/
 .demonios{
     margin-top: 130px;
     padding-top: 30px;
+
 }
 
 
 .franja{
     background-color: #2b2b2b;
     padding-bottom: 10%;
-
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .columTec{
@@ -155,9 +157,6 @@ para cambiarla utilizar: .navbar-dark .navbar-toogler-icon{}*/
 
 h3{
     font: 30px 'raleway';
-
-    font-weight: ;
-
     color: #2e939c;
 
 }

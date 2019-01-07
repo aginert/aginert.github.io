@@ -41,13 +41,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" id="primera" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" id="primera" href="#img-portada">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="grados" href="#">360°</a>
+                        <a class="nav-link" href="#links">Social</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" id="social" href="#">Social</a>
+                        <a class="nav-link" id="grados" href="#360">360°</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled"  href="#skills">Desarrollo</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -62,7 +65,7 @@
         <div class="col-12 ">
             <img src="public/img/general/dream-1.jpg" alt="imagen portada" id="img-portada">
             <div class=" col text-center" >
-                <h2 class="home-title">
+                <h2 class="home-title" id="links">
                     <span>Hey!</span>
                     <span>Bienvenidos a mi página personal.</span>
                 </h2>
@@ -89,7 +92,7 @@
                 <img src="public/img/icons/instagram.png" alt="enlace a instagram" id="icon">
             </a>
         </div>
-         <div class="col-md d-flex justify-content-center">
+         <div class="col-md d-flex justify-content-center" id="360">
              <a title="twitter" href="https://twitter.com/?lang=es">
                  <img src="public/img/icons/twitter.png" alt="enlace a twitter" id="icon">
              </a>
@@ -107,7 +110,7 @@
                 </a>
         </div>
 
-        <div class="col-lg-6 col-md-6 ">
+        <div class="col-lg-6 col-md-auto ">
             <div class="row demonios "><!--Css en apartado secciones-->
                 <h4 class="subtitle"> Algunas cosas sobre mí:</h4>
                 <p>Mi nombre es Ana Giner, y aúnque no hace mucho tiempo que empecé a desarrollar mi carrera como Developer,
@@ -121,8 +124,8 @@
 
      <!-- ======    360grados    ====== -->
 
-    <div class="row" id="Skills">
-        <div class="col-lg-5 justify-content-center franja">
+    <div class="row justify-content-center" id="skills">
+        <div class="col franja">
             <!--Titulo-->
             <div class="row">
                 <h2 class="titleTec"> SoftSkills </h2>
@@ -208,7 +211,7 @@
         </div>
 
 
-        <div class="col-lg-2 visible-md-block hidden-sm text-center" >
+        <div class="col-lg-2 text-center" >
             <div class="">
                 <img class="grow imgPlus" src="public/img/iconsGeneral/add-square-button.png">
             </div>
@@ -216,7 +219,7 @@
 
 
 
-        <div class="col-lg-5 justify-content-center franja">
+        <div class="col franja">
             <!--Título-->
             <div class="row">
                 <div class="col-sm-12 justify-content-center">
@@ -226,7 +229,7 @@
             <!-- DevSkills-->
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center columTec">
-                <img class=" grow imgTec"src="public/img/iconsCode/trello.png" alt="Trello">
+                <img class=" grow imgTec"src="public/img/iconsCode/trello.png" href="https://trello.com/aginert" alt="Trello">
                 <img class=" grow imgTec"src="public/img/iconsCode/scrum.png" alt="Scrum">
             </div>
                 <div class="col-lg-12 d-flex justify-content-center columTec">
