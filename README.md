@@ -1,7 +1,7 @@
 # Hola!
 Este es mi primer proyecto serio, y todavía sigue en contrucción. 
 
-#Lo puedes ver en www.aginert.com.
+#Lo puedes ver en https://aginert.github.io/ .
 
 La idea era saber si era capaz de construir algo con todo lo que sabía.
 Está inacabado por que seguí aprendiendo y formandome en otras cosas. 
